@@ -49,5 +49,8 @@ module.exports = {
     },
     vendor: ['aos']
   },
-  plugins: [{ src: '~/plugins/aos', ssr: false }]
+  plugins: [
+    { src: '~/plugins/aos', ssr: false },
+    { src: '~/plugins/vue-scrollto', srr: false }
+  ]
 }
