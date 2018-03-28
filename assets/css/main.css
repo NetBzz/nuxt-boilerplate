@@ -11,7 +11,7 @@
   --------------------------------------------------------- */
 
 .hero {
-  @apply py-32 flex items-center justify-center;
+  @apply py-32 flex items-center justify-center bg-grey-light;
 }
 
 .section {
