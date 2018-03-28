@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar md:fixed w-full z-50 relative bg-orange-light  py-4" role="navigation" aria-label="main navigation">
-    <div class="container mx-auto flex items-center justify-between">
-      <div class="navbar__left flex items-center w-full flex-wrap justify-between">
+  <nav class="navbar md:fixed w-full relative z-50 bg-orange-light" role="navigation" aria-label="main navigation">
+    <div class="container mx-auto flex items-center justify-between bg-orange-light">
+      <div class="navbar__left flex items-center w-full flex-wrap justify-between md:justify-start p-4">
         <div class="navbar__logo mr-8">
           Project Logo
         </div>
@@ -20,6 +20,11 @@
 
 <style scoped>
   @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      max-width: 100%;
+    }
+
     .navbar__links {
       position: absolute;
       top: -12rem;
@@ -31,15 +36,16 @@
       justify-content: center;
       transition: all .5s linear;
       width: 100%;
+      z-index: -1;
     }
 
     .navbar__links.active {
-      top: 4.9rem;
-      z-index: -1;
+      top: 5.1rem;
     }
 
     .navbar__links a {
       padding: 1rem 0;
+      text-decoration: none;
     }
   }
 </style>

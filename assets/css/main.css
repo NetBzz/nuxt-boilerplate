@@ -10,6 +10,18 @@
   ##  CUSTOM CLASSES
   --------------------------------------------------------- */
 
+.hero {
+  @apply py-32 flex items-center justify-center;
+}
+
 .section {
   @apply py-16;
+}
+
+p {
+  @apply leading-normal;
+}
+
+h2 {
+  @apply mb-4;
 }

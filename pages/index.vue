@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header>
-      <h1>header</h1>
+    <header class="hero">
+      <h1>I'm a hero</h1>
     </header>
     <main>
       <section id="about" class="section">
