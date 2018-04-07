@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar md:fixed w-full relative z-50 bg-orange-light" role="navigation" aria-label="main navigation">
     <div class="container mx-auto flex items-center justify-between bg-orange-light">
-      <div class="navbar__left flex items-center w-full flex-wrap justify-between md:justify-start md:py-4 md:px-0 p-4">
+      <div class="navbar__left flex items-center w-full flex-wrap justify-between md:justify-start py-4">
         <div class="navbar__logo mr-8">
           Project Logo
         </div>

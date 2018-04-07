@@ -2,6 +2,7 @@
   <div>
     <navigation></navigation>
     <nuxt/>
+    <contactForm></contactForm>
     <siteFooter></siteFooter>
   </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
   import Navigation from '../components/Navigation'
   import siteFooter from '../components/Footer'
+  import contactForm from '../components/ContactForm'
 
   export default {
     components: {
       Navigation,
-      siteFooter
+      siteFooter,
+      contactForm
     }
   }
 </script>
