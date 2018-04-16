@@ -25,6 +25,12 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis magni dolore fugiat excepturi qui minima voluptate consequatur? Sed, obcaecati qui nulla rem exercitationem nesciunt in, iure ratione, culpa excepturi reprehenderit.</p>
         </div>
       </section><!-- /#contact -->
+      <div v-lazy-container="{ selector: 'img' }">
+        <img data-src="//fillmurray.com/200/300" alt="">
+        <img data-src="//fillmurray.com/200/300" alt="">
+        <img data-src="//fillmurray.com/200/300" alt="">
+        <img data-src="//fillmurray.com/200/300" alt="">
+      </div>
     </main>
   </div>
 </template>

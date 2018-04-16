@@ -54,6 +54,7 @@ module.exports = {
   },
   plugins: [
     { src: '~/plugins/aos', ssr: false },
-    { src: '~/plugins/vue-scrollto', srr: false }
+    { src: '~/plugins/vue-scrollto', srr: false },
+    { src: '~/plugins/vue-lazyload' }
   ]
 }

@@ -16,6 +16,7 @@
     "aos": "^2.2.0",
     "nuxt": "^1.4.0",
     "tailwindcss": "^0.5.1",
+    "vue-lazyload": "^1.2.3",
     "vue-scrollto": "^2.11.0"
   },
   "devDependencies": {
