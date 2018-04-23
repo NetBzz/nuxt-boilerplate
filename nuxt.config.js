@@ -11,12 +11,10 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Anton' },
     ],
-    script: [
-      { src: '/js/main.js', type: 'text/javascript', body: true }
-    ]
+    script: [{ src: '/js/main.js', type: 'text/javascript', body: true }]
   },
   /*
   ** Load global CSS
@@ -54,7 +52,7 @@ module.exports = {
   },
   plugins: [
     { src: '~/plugins/aos', ssr: false },
-    { src: '~/plugins/vue-scrollto', srr: false },
+    { src: '~/plugins/vue-scrollto', ssr: false },
     { src: '~/plugins/vue-lazyload' }
   ]
 }
