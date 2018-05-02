@@ -1,24 +1,21 @@
 <template>
   <div>
-    <navigation></navigation>
+    <Navigation/>
     <nuxt/>
-    <contactForm></contactForm>
-    <siteFooter></siteFooter>
+    <SiteFooter/>
   </div>
 </template>
 
 <script>
-  import Navigation from '../components/Navigation'
-  import siteFooter from '../components/Footer'
-  import contactForm from '../components/ContactForm'
+import Navigation from '../components/Navigation'
+import SiteFooter from '../components/SiteFooter'
 
-  export default {
-    components: {
-      Navigation,
-      siteFooter,
-      contactForm
-    }
+export default {
+  components: {
+    Navigation,
+    SiteFooter
   }
+}
 </script>
 
 <style>
